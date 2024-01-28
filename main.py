@@ -25,7 +25,7 @@ def read_from_txt(file_path):
 def fill_form(address: str, email: str):
     logger.info(f'Filling form for {address} - {email}')
     timestamp = calendar.timegm(time.gmtime())
-    print(timestamp)
+
     value = {
         "emailAddress": email,
         "entry.908064693": address,
