@@ -26,7 +26,7 @@ def fill_form(address: str, email: str):
     value = {
         "emailAddress": email,
         "entry.908064693": address,
-        "dlut": 1706437372756
+        "dlut": ''.join([str(random.randrange(10)) for _ in range(13)])
     }
 
     try:
