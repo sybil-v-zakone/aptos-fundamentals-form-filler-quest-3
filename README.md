@@ -33,5 +33,3 @@
 ```
     python main.py
 ```
-
-![image](https://github.com/sybil-v-zakone/aptos-fundamentals-form-filler/assets/33164477/01b6b238-edb3-480f-b6a9-9ef272732fb8)
